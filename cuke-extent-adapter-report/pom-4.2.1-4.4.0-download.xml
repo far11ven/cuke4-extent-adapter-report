@@ -18,7 +18,7 @@
 			<artifactId>extentreports-cucumber4-adapter</artifactId>
 			<version>1.0.8</version>
 			<scope>system</scope>
-			<systemPath>D:/extentreports-cucumber4-adapter.jar</systemPath>
+			<systemPath>D:/Workspace/Demo-Workspace/extent4/cuke-extent-adapter-report/src/test/resources/extentreports-cucumber4-adapter.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.aventstack</groupId>

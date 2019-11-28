@@ -38,8 +38,14 @@
 			<artifactId>cucumber-junit</artifactId>
 			<version>${cucumber.version}</version>
 		</dependency>
-		<!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-testng</artifactId> 
-			<version>${cucumber.version}</version> </dependency> -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>4.7.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber.version}</version> </dependency> -->
 	</dependencies>
 
 	<build>

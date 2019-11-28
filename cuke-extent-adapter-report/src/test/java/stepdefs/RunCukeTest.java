@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 //import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
+@CucumberOptions(features = "src/test/resources/features",
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class RunCukeTest /* extends AbstractTestNGCucumberTests */ {
 
 }
